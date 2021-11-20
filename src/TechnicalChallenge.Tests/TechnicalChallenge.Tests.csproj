@@ -19,4 +19,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TechnicalChallenge.Manager\TechnicalChallenge.Manager.csproj" />
+    <ProjectReference Include="..\TechnicalChallenge.Shared\TechnicalChallenge.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
