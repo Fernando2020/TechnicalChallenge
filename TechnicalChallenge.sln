@@ -13,15 +13,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Shared", "04 - Shared"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Tests", "05 - Tests", "{EB5DE31E-B153-47B9-8C65-BFE8E1C755C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalChallenge.Console", "src\TechnicalChallenge.Console\TechnicalChallenge.Console.csproj", "{AC8753C7-D23A-4325-AB9D-3DF942E02024}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnicalChallenge.Console", "src\TechnicalChallenge.Console\TechnicalChallenge.Console.csproj", "{AC8753C7-D23A-4325-AB9D-3DF942E02024}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalChallenge.Manager", "src\TechnicalChallenge.Manager\TechnicalChallenge.Manager.csproj", "{1E7754E7-970C-446F-BFE1-198CB2414F1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnicalChallenge.Manager", "src\TechnicalChallenge.Manager\TechnicalChallenge.Manager.csproj", "{1E7754E7-970C-446F-BFE1-198CB2414F1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalChallenge.Core", "src\TechnicalChallenge.Core\TechnicalChallenge.Core.csproj", "{74C705DB-49E7-48D2-BD85-DC116D8D0565}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnicalChallenge.Core", "src\TechnicalChallenge.Core\TechnicalChallenge.Core.csproj", "{74C705DB-49E7-48D2-BD85-DC116D8D0565}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalChallenge.Shared", "src\TechnicalChallenge.Shared\TechnicalChallenge.Shared.csproj", "{387A4485-A021-480E-A137-017B595DA7FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnicalChallenge.Shared", "src\TechnicalChallenge.Shared\TechnicalChallenge.Shared.csproj", "{387A4485-A021-480E-A137-017B595DA7FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalChallenge.Tests", "src\TechnicalChallenge.Tests\TechnicalChallenge.Tests.csproj", "{4F05985D-62C6-482E-92C6-74D37A1F0FF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnicalChallenge.Tests", "src\TechnicalChallenge.Tests\TechnicalChallenge.Tests.csproj", "{4F05985D-62C6-482E-92C6-74D37A1F0FF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - WebApi", "06 - WebApi", "{77708D69-A9C2-4E5D-860C-7A51AAF2C89D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalChallenge.WebApi", "src\TechnicalChallenge.WebApi\TechnicalChallenge.WebApi.csproj", "{756D28FF-7522-490F-B4B2-29C083C82DAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,10 @@ Global
 		{4F05985D-62C6-482E-92C6-74D37A1F0FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F05985D-62C6-482E-92C6-74D37A1F0FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F05985D-62C6-482E-92C6-74D37A1F0FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756D28FF-7522-490F-B4B2-29C083C82DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756D28FF-7522-490F-B4B2-29C083C82DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756D28FF-7522-490F-B4B2-29C083C82DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756D28FF-7522-490F-B4B2-29C083C82DAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,7 @@ Global
 		{74C705DB-49E7-48D2-BD85-DC116D8D0565} = {7002770C-8824-4F48-9EC9-AA11B6923517}
 		{387A4485-A021-480E-A137-017B595DA7FC} = {2445CEDD-BC2D-4EAA-A21B-01DF0B83B6BA}
 		{4F05985D-62C6-482E-92C6-74D37A1F0FF1} = {EB5DE31E-B153-47B9-8C65-BFE8E1C755C1}
+		{756D28FF-7522-490F-B4B2-29C083C82DAC} = {77708D69-A9C2-4E5D-860C-7A51AAF2C89D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C8B5CA6-63CF-4A7E-892D-4A79546BDC92}
