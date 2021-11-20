@@ -8,7 +8,7 @@ namespace TechnicalChallenge.Manager.Validators
         public DividerValidator()
         {
             RuleFor(x => x.Number)
-                .NotNull().GreaterThan(0).WithMessage("Digite um número maior que 0");
+                .NotNull().GreaterThan(0).WithMessage("Digite um número maior que zero (0).");
         }
     }
 }
