@@ -64,7 +64,7 @@ namespace TechnicalChallenge.Console
                 }
                 catch
                 {
-                    MessageWriteLine("Digite um número válido.");
+                    MessageWriteLine("Digite um número inteiro e válido.");
                 }
 
                 MessageWriteLine();
