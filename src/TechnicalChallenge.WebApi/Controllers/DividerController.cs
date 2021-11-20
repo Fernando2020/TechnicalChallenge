@@ -16,6 +16,11 @@ namespace TechnicalChallenge.WebApi.Controllers
             _dividerManager = dividerManager;
         }
 
+        /// <summary>
+        /// Obter DividerResponse por número de entrada.
+        /// </summary>
+        /// <param name="number" example="10">Número para ser cálculado.</param>
+        /// <returns></returns>
         [HttpGet("{number}")]
         [ProducesResponseType(typeof(DividerResponse), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(DividerResponse), StatusCodes.Status400BadRequest)]

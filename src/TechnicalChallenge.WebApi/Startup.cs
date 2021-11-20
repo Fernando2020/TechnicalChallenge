@@ -3,8 +3,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.OpenApi.Models;
 using TechnicalChallenge.Manager;
+using TechnicalChallenge.WebApi.Configurations;
 
 namespace TechnicalChallenge.WebApi
 {
@@ -25,10 +25,8 @@ namespace TechnicalChallenge.WebApi
 
             services.AddManager();
 
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "TechnicalChallenge.WebApi", Version = "v1" });
-            });
+            services.AddSwaggerConfiguration();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,9 +35,9 @@ namespace TechnicalChallenge.WebApi
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TechnicalChallenge.WebApi v1"));
             }
+
+            app.UseSwaggerConfiguration();
 
             app.UseRouting();
 

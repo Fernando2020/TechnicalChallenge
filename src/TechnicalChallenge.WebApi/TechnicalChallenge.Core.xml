@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TechnicalChallenge.Core</name>
+    </assembly>
+    <members>
+        <member name="T:TechnicalChallenge.Core.Dtos.DividerResponse">
+            <summary>
+            Objeto responsável pelo retorno das listas de divisores e números primos dos divisores.
+            </summary>
+        </member>
+        <member name="P:TechnicalChallenge.Core.Dtos.DividerResponse.IsSuccess">
+            <summary>
+            Sucesso da operação.
+            </summary>
+            <example>true</example>
+        </member>
+        <member name="P:TechnicalChallenge.Core.Dtos.DividerResponse.Error">
+            <summary>
+            Menssagem de erro se houver.
+            </summary>
+        </member>
+        <member name="P:TechnicalChallenge.Core.Dtos.DividerResponse.Dividers">
+            <summary>
+            Lista de divisores.
+            </summary>
+        </member>
+        <member name="P:TechnicalChallenge.Core.Dtos.DividerResponse.PrimeNumbers">
+            <summary>
+            Lista de números primos da lista de divisores.
+            </summary>
+        </member>
+    </members>
+</doc>
