@@ -5,6 +5,6 @@ namespace TechnicalChallenge.Manager.Interfaces
 {
     public interface IDividerManager
     {
-        DividerResponse GetDividers(Divider divider);
+        DividerResponse GetDividersAndPrimeNumbers(Divider divider);
     }
 }
